@@ -67,7 +67,6 @@ void create_table(cql_test_env& e) {
 SEASTAR_TEST_CASE(test_aggregate_avg) {
     return do_with_cql_env_thread([&] (auto& e) {
         create_table(e);
-
         auto msg = e.execute_cql("SELECT avg(a), "
                                  "avg(b), "
                                  "avg(c), "

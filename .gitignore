@@ -25,7 +25,9 @@ tags
 testlog
 test/*/*.reject
 .vscode
+.vs
 docs/_build
 docs/poetry.lock
 compile_commands.json
 .ccls-cache/
+tmp/

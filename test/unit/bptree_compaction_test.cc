@@ -68,7 +68,7 @@ int main(int argc, char **argv) {
             cfg.count = count;
             cfg.iters = iter;
             cfg.verb = verb;
-
+            
             tree_pointer<test_tree> t(test_key_compare{});
             test_validator tv;
 
